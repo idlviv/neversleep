@@ -36,4 +36,4 @@ https.get('https://hmadedotwork.herokuapp.com', (res) => {
   console.error(`Got error: ${e.message}`);
 });
 
-}, 900000); // every 15 minutes
+}, 300000); // every 5 minutes
