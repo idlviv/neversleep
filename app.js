@@ -1,7 +1,7 @@
-var http = require("http");
+var https = require("https");
 setInterval(function() {
 
-http.get('http://hmadedotwork.herokuapp.com', (res) => {
+https.get('https://hmadedotwork.herokuapp.com', (res) => {
 //   const { statusCode } = res;
 //   const contentType = res.headers['content-type'];
 // console.log('statusCode', statusCode);
